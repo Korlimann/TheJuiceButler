@@ -1,9 +1,16 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
 group 'com.korlimann.thejuicebutler'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 
 sourceCompatibility = 1.8
+
+mainClassName = 'com.korlimann.thejuicebutler.TheJuiceButler'
 
 def jrawVersion = "1.1.0"
 
